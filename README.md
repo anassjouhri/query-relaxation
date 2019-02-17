@@ -8,6 +8,10 @@
 
 ## 0 # Before launching the webapp, you need to add the qars-dist.jar to your maven repository
 
+**/ Install some C++ dependencies using : <br />
+[Ubuntu/ Unix based OS]
+sudo apt-get install libboost-program-options-dev libboost-log-develop
+
 1/ Run the following command :  <br />
 mvn install:install-file    -Dfile=./src/main/resources/lib/qars-dist.jar    -DgroupId=forge.lias-lab.fr    -DartifactId=qars    -Dversion=1.0.0    -Dpackaging=jar    -DgeneratePom=true
 
